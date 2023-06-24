@@ -1,3 +1,38 @@
 h1 {
-    color: blueviolet;
+    background-color: crimson;
+    width: 307px;
+    height: auto;
+    margin: 0px;
+}
+#img {
+    height: 40px;
+    width: 40px;
+    margin-top: 15px;
+}
+#strawberry {
+    width: 100px;
+    height: 100px;
+}
+/* div {
+    margin: 100px 50px 100px 50px;
+} */
+#sec {
+    background-color: cornflowerblue;
+}
+
+div {
+    width: 300px;
+    height: auto;
+    background-color: darksalmon;
+    margin: 0px;
+}
+
+.lol {
+    /* background-color: burlywood; */
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+.lol a {
+    display: inline-block;
 }
