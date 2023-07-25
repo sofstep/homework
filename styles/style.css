@@ -1,17 +1,14 @@
 h1 {
     background-color: crimson;
-    width: 307px;
+    /* width: 307px; */
     height: auto;
     margin: 0px;
+    text-align: center;
 }
 #img {
     height: 40px;
     width: 40px;
     margin-top: 15px;
-}
-#strawberry {
-    width: 100px;
-    height: 100px;
 }
 /* div {
     margin: 100px 50px 100px 50px;
@@ -21,18 +18,27 @@ h1 {
 }
 
 div {
-    width: 300px;
+    width: auto;
     height: auto;
     background-color: darksalmon;
     margin: 0px;
+    text-align: center;
+    display: inline-block;
 }
 
 .lol {
     /* background-color: burlywood; */
-    display: inline-block;
+    /* display: inline-block; */
+    /* display: flex; */
+    display: grid;
     vertical-align: top;
     text-align: center;
 }
 .lol a {
     display: inline-block;
+}
+#strawberry {
+    width: 100px;
+    height: 100px;
+    text-align: center;
 }
