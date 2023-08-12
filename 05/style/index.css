@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    padding: 40px 0;
+    /* background-color: rgb(169, 133, 202); */
+}
+.content{
+    margin: 0 109px;
+    width: 86%;
+    font-size: 0;
+}
+.wegather, .home, .about, .pricing, .button01{
+    display: inline-block;
+}
+.home, .about, .pricing{
+    text-decoration: none;
+}
+.home, .about, .pricing, .button01{
+    font-size: 24px;
+}
+.wegather{
+    position: relative;
+    top: 35px;
+}
+.wegather a{
+    display: inline-block;
+}
+.wegather, .home{
+    width: 25.5%;
+}
+.home, .about, .pricing, .button01{
+    text-align: right;
+}
+.home{
+    padding-right: 151px;
+}
+.about{
+    padding-right: 117px;
+}
+.pricing{
+    padding-right: 176px;
+}
+.button button{
+    display: inline-block;
+    width: 174px;
+    font-size: 24px;
+    padding: 27px 18px;
+    background-color: #147B43;
+    color: #FDF8F8;
+    border-radius: 50px;
+    border: none;
+    position: relative;
+    left: 1473px;
+    top: -49px;
+}
+/* section style */
+.section-one{
+    padding: 10px 0;
+    /* background-color: brown; */
+}
+.text-content{
+    margin: 0 auto;
+    /* width: 647px; */
+}
+h1{
+    margin: 0;
+    font-size: 55px;
+    line-height: normal;
+}
+.text-content h1{
+    position: relative;
+    left: 109px;
+}
+.first img{
+    position: relative;
+    left: 229px;
+    top: 7px ;
+}
+.first button{
+    display: inline-block;
+    width: 174px;
+    font-size: 24px;
+    padding: 27px 20px;
+    background-color: #F1F8F4;
+    color: #147B43;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.25);
+    position: relative;
+    top: 58px;
+    left: 109px;
+}
+.second{
+    height: 201px;
+}
+.second img{
+    position: relative;
+    top: -451px;
+    left: 933px;
+}
+/* footer style */
+footer{
+    /* background-color: chocolate; */
+    padding: 10px 0;
+}
+.contents{
+    margin: 0 109px;
+    width: 87%;
+    font-size: 0;
+    padding: 0 0 33px 0;
+}
+h2, h3{
+    margin: 0;
+}
+h2{
+    font-size: 36px;
+}
+h3{
+    font-size: 24px;
+    text-decoration-line: none;
+}
+.contactus, .servise, .company{
+    display: inline-block;
+}
+.contactus{
+    padding-right: 427px;
+}
+.servise{
+    padding-right: 505px;
+}
+.company{
+    position: relative;
+    top: -20px;
+}
